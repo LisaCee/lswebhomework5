@@ -1,20 +1,31 @@
 //1. print the number 5 to the console
+console.log(5);
 
 //2. Print your name to the console
+console.log("LisaCee");
 
 //3. Store your age as a variable called "myAge"
+var myAge = 38;
 
 //4. Print to the console how old you will be in 5 years
+console.log(myAge + 5);
 
 //5. Store your favorite food as a variable called "myFavoriteFood"
+var myFavoriteFood = "fruit";
 
 //6. Publish your favorite food to `index.html` using `document.write()`
+document.write(myFavoriteFood);
 
 //7. Print the remainder of 14 / 3 to the console
+console.log(14 % 3);
 
 //8. Print the remainder of 829 / 13 to the console
+console.log(829 % 13);
 
 //9. Create a for loop that counts from 0 to 130 by 3s
+for(var i = 0; i <= 130; i  += 3){
+	console.log(i);
+}
 
 //10. Create a for loop that counts from 3 to 17 by 2s
 
